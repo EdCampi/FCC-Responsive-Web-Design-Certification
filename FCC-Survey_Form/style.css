@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+* {
+  text-decoration: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  height: 300px;
+  background-image: url(https://i.imgur.com/MF5Ceup.jpg);
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* don't touch anythin above */
+
+header h1 {
+  width: fit-content;
+  background-color: black;
+  color: white;
+  padding: 5px 15px;
+  font-family: 'Staatliches', cursive;
+  font-size: 55px;
+  border-radius: 2px;
+}
+
+/* title ready*/
+
+header p {
+  color: black;
+  border-radius: 2px;
+  background-color: white;
+  width: fit-content;
+  padding: 0px 10px;
+  font-family: 'Anton', sans-serif;
+  font-size: 25px;
+  position: relative;
+  top: 25px;
+}
+
+/*don't touch anything above this line*/
+
+#form-background {
+  height: 1000px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+
+#form-sheet {
+  width: 800px;
+  height: 925px;
+  text-align: center;
+  background-color: black;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#form-titles {
+  height: 180px;
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-family:  'Jost', sans-serif;
+  font-size: 25px;
+  width: 600px;
+  padding: 5px 10px;
+  background-color: white;
+  color: black;
+  position: relative;
+  bottom: 15px;
+  border-radius: 2px;
+}
+
+h4 {
+  width: fit-content;
+  color: white;
+  background-color: ;
+  font-size: 25px;
+  font-family: 'Fjalla One', sans-serif;
+}
+
+/*except the final desing, don't touch anything above*/
+
+form {
+  font-family: 'Jost', sans-serif;
+}
+
+input {
+  font-family: 'Jost', sans-serif;
+  color: black;
+}
+
+.px {
+  width: 220px;
+  border: none;
+  height: 30px;
+  font-size: 18px;
+  background-color: black;
+  color: white;
+  font-weight: 500;
+}
+
+/*generals ready*/
+
+#name-form {
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+/*don't, name ready*/
+
+#age-form {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*age ready*/
+
+#email-form {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*email ready*/
+
+#drop-form {
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#pizzaissue {
+  position: relative;
+  bottom: 0px;
+  right: 15px;
+}
+
+.i1 {
+  position: relative;
+  bottom: 10px;
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+  padding: 5px 10px;
+  text-transform: uppercase;
+}
+
+.i2 {
+  position: relative;
+  width: 200px;
+  border: none;
+  font-size: 20px;
+  font-family: 'Jost', sans-serif;
+  background-color: black;
+  color: white;
+}
+
+/*drop ready, only final touches*/
+
+#minmax {
+  height: 95px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/*cheese ready*/
+
+#radio-form {
+  height: 95px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#radio-form label {
+  margin-left: 50px;
+  color: white;
+  font-weight: 500;
+}
+
+#radio-form input {
+  position: relative;
+  top: 2px;
+}
+
+/* radio ready*/
+
+#box-form {
+  height: 95px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#box-form label {
+  margin-left: 50px;
+  color: white;
+  font-weight: 500;
+}
+
+#box-form input {
+  position: relative;
+  top: 2px;
+}
+
+/*boxes ready*/
+
+#text-form {
+  height: 130px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#next {
+  border: none;
+  font-size: 20px;
+  font-family: 'Jost', sans-serif;
+  font-weight: 500;
+  border-radius: 2px;
+  color: white;
+  background-color: black;
+  resize: none;
+}
+
+#next:focus {
+  outline: none;
+}
+
+.i3 {
+  position: relative;
+  top: 5px;
+  height: 50px;
+}
+
+/*text ready*/
+
+#submit-form {
+  height: 75px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/*text ready to go on*/
+
+#thank {
+  position: relative;
+  top: 2px;
+}
+
+button {
+  position: relative;
+  top: 5px;
+  width: fit-content;
+  padding: 5px 10px;
+  color: white;
+  background-color: black;
+  border: none;
+  border-style: solid;
+  font-family: 'Anton', sans-serif;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+/*submit ready*/
+
+footer {
+  background-color: #ffd54f;
+  height: 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Anton', sans-serif;
+}
+
+#info {
+  background-color: #b0bec5;
+  height: 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Jost', sans-serif;
+}
+
+/*don't joke*/
+
+.l1 {
+  margin: 0px 40px;
+  width: fit-content;
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Jost', sans-serif !important;
+  font-weight: 500; 
+  padding: 5px 5px;
+  font-size: 20px;
+}

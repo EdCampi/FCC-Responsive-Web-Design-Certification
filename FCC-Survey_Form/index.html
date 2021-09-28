@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - FCC - Survey Form</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Jost:wght@300;400&family=Quicksand:wght@500&family=Staatliches&display=swap" rel="stylesheet">
+
+<div id="page">
+  <header>
+        <h1 id="title">THE FAST-FOOD BOX</h1>
+      <p id="description">16-BIT® PROMO ORDER FORM</p>
+  </header>
+  <!--don't touch anything above this comment-->
+ <div id="form-background">
+  <div id="form-sheet">
+    <div id="form-titles">
+      <h3>Thanks for choosing THE F² BOX®, your promo includes a medium size pizza and a soda.</h3> 
+    <h4> Please select want you want with your order:</h4>
+    </div>
+    <!--don't touch any title-->
+      <form id="survey-form">
+        <div id="name-form">
+        <label  class ="l1" for="name" id="name-label">Name*</label>
+        <input class="px" type="text" name="name-surname" id="name" placeholder="Who will retire the order" pattern="[a-zA-z]+" required>
+        </div>
+        <div id="age-form">
+      <label class="l1" for="number" id="number-label">Age</label>
+      <input class="px" type="number" name="age" id="number" min="10" max="99" placeholder="Your age">
+        </div>
+        <div id="email-form">
+          <label class="l1" for="email" id="email-label">E-mail*</label>
+          <input class="px" id="email" name="email" type="email" placeholder="Your e-mail" required>
+        </div>
+        <div id="drop-form">
+          <p class="i1" id="pizzaissue">Pizza type</p>
+          <select class="i2" id="dropdown" required>
+            <option value="please-select" selected disabled>Please select one</option>
+            <option value="chicago">Chicago</option>
+            <option value="greek">Greek</option>
+            <option value="mozzarella">Mozzarella</option>
+            <option value="neapolitan">Neapolitan</option>
+            <option value="new-york-slice">New York Slice</option>
+          </select>
+        </div>
+        <div id="minmax">
+          <label for="cheese" class="i1">Cheese amount</label>
+          <div>
+          <input class="i2" id="cheese" type="range" min="1" max="3">
+          </div>
+        </div>
+        <div id="radio-form">
+          <p class="i1">Select your drink</p>
+          <div id="i2">
+          <label for="fresh-cola">Fresh-Cola</label>
+          <input type="radio" name="drink" value="drink1" id="fresh-cola">
+          <label for="orange-plus">OrangePlus</label>
+          <input name="drink" type="radio" value="drink2" id="orange-plus">
+          <label for="lemon-explosion">Lemon Explosion</label>
+          <input type="radio" id="lemon-explosion" value="drink3" name="drink">
+          <label for="guarana-pole">Guaraná Pole</label>
+          <input type="radio" id="guarana-pole" value="drink4" name="drink">
+          </div>
+        </div>
+        <div id="box-form">
+          <p class="i1">Why this promo?</p>
+          <div id="i2">
+          <label for="1">Price</label>
+          <input name="1" type="checkbox" value="price">
+          <label for="2">Variety</label>
+          <input name="2" type="checkbox" value="variety">
+          <label for="3">Recommendation</label>
+          <input name="3" type="checkbox" value="recommendation">
+          <label for="4">Curiosity</label>
+          <input name="4" type="checkbox" value="curiosity">
+          </div>
+        </div>
+        <div id="text-form">
+          <div>
+          <p class="i1">If you have any special regard, please let us know.</p>
+        </div>
+        <div>
+          <label for="next"></label>
+          <textarea class="i3" id="next" placeholder="e.g. Don't include garlic." rows="5" cols="40"></textarea>
+        </div>
+        </div>
+        <div id="submit-form">
+          <p id="thank" class="i1">Thank you, press "submit" to send your order.</p>
+          <button id="submit" type="submit" form="survey-form" value="submit">Submit</button>
+        </div>
+      </form>
+  </div>
+  </div>
+  <footer>
+    <p>THE FAST-FOOD BOX®. 0529 Fake Street, Cyber-Diagon Alley, UK.</p>
+  </footer>
+  <div id="info">
+    <p>Thanks to <a style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px" href="https://unsplash.com/@sharisocial?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Shari Sirotnak"><span style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;position:relative;vertical-align:middle;top:-2px;fill:white" viewBox="0 0 32 32"><title>unsplash-logo</title><path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path></svg></span><span style="display:inline-block;padding:2px 3px">Shari Sirotnak</span></a> for the background image.</p>
+  </div>
+</div>
+<!-- partial -->
+  
+</body>
+</html>
