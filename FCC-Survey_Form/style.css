@@ -20,8 +20,6 @@ header {
   align-items: center;
 }
 
-/* don't touch anythin above */
-
 header h1 {
   width: fit-content;
   background-color: black;
@@ -31,8 +29,6 @@ header h1 {
   font-size: 55px;
   border-radius: 2px;
 }
-
-/* title ready*/
 
 header p {
   color: black;
@@ -46,7 +42,6 @@ header p {
   top: 25px;
 }
 
-/*don't touch anything above this line*/
 
 #form-background {
   height: 1000px;
@@ -99,7 +94,6 @@ h4 {
   font-family: 'Fjalla One', sans-serif;
 }
 
-/*except the final desing, don't touch anything above*/
 
 form {
   font-family: 'Jost', sans-serif;
@@ -120,8 +114,6 @@ input {
   font-weight: 500;
 }
 
-/*generals ready*/
-
 #name-form {
   height: 50px;
   display: flex;
@@ -130,16 +122,12 @@ input {
   align-items: center;
 }
 
-/*don't, name ready*/
-
 #age-form {
   height: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
-/*age ready*/
 
 #email-form {
   height: 50px;
@@ -148,7 +136,6 @@ input {
   align-items: center;
 }
 
-/*email ready*/
 
 #drop-form {
   height: 50px;
@@ -184,8 +171,6 @@ input {
   color: white;
 }
 
-/*drop ready, only final touches*/
-
 #minmax {
   height: 95px;
   display: flex;
@@ -194,7 +179,6 @@ input {
   align-items: center;
 }
 
-/*cheese ready*/
 
 #radio-form {
   height: 95px;
@@ -215,7 +199,7 @@ input {
   top: 2px;
 }
 
-/* radio ready*/
+
 
 #box-form {
   height: 95px;
@@ -236,7 +220,6 @@ input {
   top: 2px;
 }
 
-/*boxes ready*/
 
 #text-form {
   height: 130px;
@@ -267,7 +250,7 @@ input {
   height: 50px;
 }
 
-/*text ready*/
+
 
 #submit-form {
   height: 75px;
@@ -277,7 +260,7 @@ input {
   align-items: center;
 }
 
-/*text ready to go on*/
+
 
 #thank {
   position: relative;
@@ -298,7 +281,7 @@ button {
   font-size: 20px;
 }
 
-/*submit ready*/
+
 
 footer {
   background-color: #ffd54f;
@@ -320,7 +303,6 @@ footer {
   font-family: 'Jost', sans-serif;
 }
 
-/*don't joke*/
 
 .l1 {
   margin: 0px 40px;
