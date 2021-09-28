@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@300;400;800&family=Montserrat:wght@200;600;700;800&family=Raleway:wght@200;700;800;900&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/*navbar*/
+
+#navbar {
+  height: 50px;
+  width: 100%;
+  text-align: right;
+  position: fixed;
+  background-color: white;
+  z-index: 100;
+} 
+
+#navbar ul li {
+  display: inline;
+  font-family: 'Josefin Sans', sans-serif;
+  position: relative;
+  top: 18px;
+  right: 15px;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  margin: 0px 40px 0px 0px;
+}
+
+.link:hover {
+  color: white;
+  background: linear-gradient(#3E493A,#808479);
+  padding: 20px 5px 14px 5px;
+}
+
+/*welcome section*/
+
+#welcome-section {
+  background-color: white;
+  height: 545px;
+  background-image: url("https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1052&q=80");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#intro {
+  color: White;
+  width: 400px;
+  font-size: 20px;
+  font-family: 'poppins';
+  text-align: center;
+  position: relative;
+  top: 50px;
+}
+
+
+h1 {
+  font-family: 'catamaran';
+  font-size: 70px;
+  font-weight: 800;
+  text-align: center;
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+/*projects section*/
+
+
+#projects {
+  height: 650px;
+  background-color: ;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  position: relative;
+  font-size: 30px;
+  font-weight: 900;
+  bottom: 20px;
+  font-family: 'Montserrat';
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  background-color: white;
+  border-radius: 2px;
+  padding: 5px 10px;
+}
+
+#projects-div {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  background-color: white;
+  width: 80%;
+  height: 500px;
+}
+
+#project-1 {
+  grid-row: 1/2;
+  grid-column: 1/2;
+}
+
+#project-2 {
+  grid-row: 1/2;
+  grid-column: 2/3;
+}
+
+#project-3 {
+  grid-row: 2/3;
+  grid-column: 1/2;
+}
+
+#project-4 {
+  grid-row: 2/3;
+  grid-column: 2/3;
+}
+
+.project-tile {
+  margin: auto;
+  background-color: ;
+  padding: 10px 20px;
+  border-radius: 2px;
+}
+
+.project-tile:hover {
+  border-style: solid none solid none;
+  border-color: black;
+  border-radius: 0px;
+}
+
+#animation {
+  animation-name: 001;
+  animation-duration: 0.5s;
+}
+
+.project-title {
+  font-family: 'raleway';
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 10px;
+  color: black;
+  width: 300px;
+  font-weight: 600;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 300px;
+}
+
+/*about me section*/
+
+#about-me {
+  height: 400px;
+  display: flex;
+  background-color: #e6eaf0;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#contact {
+  height: 200px;
+  width: 30%;
+  border-radius: 5px;
+  background-color: ;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#about-me1 {
+  width: 30%;
+  height: 200px;
+  background-color: ;
+  border-radius: 5px;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#profile-link {
+  background: linear-gradient(#2F491F,#1F3449);
+  padding: 10px 15px;
+  border-radius: 10px;
+  color: white;
+  font-family: 'consolas';
+  font-weight: 100;
+  position: relative;
+  left: 62px;
+}
+
+#profile-link:hover {
+  padding: 15px 20px;
+}
+
+#h42, #h41 {
+  font-family: 'Josefin sans';
+  font-size: 30px;
+  color: black;
+}
+
+#h42 {
+  position: relative;
+  bottom: 50px;
+  left: 10px;
+}
+
+#h41 {
+  position: relative;
+  bottom: 23px;
+  left: 10px;
+}
+
+#description {
+  font-size: 20px;
+  font-family: 'montserrat';
+  text-align: right;
+  position: relative;
+  right: 10px;
+  color: black;
+}
+
+/*footer section*/
+
+footer {
+  background-color: black;
+  height: 35px;
+  color: white;
+  font-family: 'montserrat';
+  font-weight: 300;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 780px) {
+  #projects {
+    text-align: center;
+    dispaly: flex;
+    flex-direction: column;
+    justify-items: start;
+    align-items: center;
+    height: 1200px;
+  }
+  #projects-div {
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+  }
+  h1 {
+    border-radius: 0px;
+  }
+  #about-me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  #about-me1 {
+    width: 250px;
+  }
+  #contact {
+    width: 250px;
+    height: 110px;
+  }
+  footer {
+    height: 55px;
+    text-align: center;
+  }
+}

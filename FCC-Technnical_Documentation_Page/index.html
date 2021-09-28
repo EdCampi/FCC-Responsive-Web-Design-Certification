@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - FCC - Technical documentation page</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<link href="https://fonts.googleapis.com/css2?family=Muli:wght@200;400;700&family=PT+Serif:wght@400;700&family=Raleway:wght@600;700;900&display=swap" rel="stylesheet">
+
+  <nav id="navbar">
+    <div id="black-part">
+    <img src="https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9a/Yorick_Cat_profileicon.png" id="icon">
+    <p>Project #3 - FCC</p>
+  </div>
+    <header id="browse">Browse</header>
+    <ul id="nav-link-id">
+      <li><a class="nav-link" href="#What_is_morse_code">What is morse code</a></li>
+      <li><a class="nav-link" href="#History">History</a></li>
+      <li><a class="nav-link" href="#Representation,_timing,_and_speeds">Representation, timing, and speeds</a></li>
+      <li><a class="nav-link" href="#The_alphabet">The alphabet</a></li>
+      <li><a class="nav-link" href="#Morse_Translators">Morse translators</a></li>
+    </ul>
+  </nav>
+  <!--CONTENT PAGE-->
+  <main id="main-doc">
+    <div id="white-part">
+    <ul>
+      <li><a href="#index">Explore</a></li>
+      <li><a href="#index">About us</a></li>
+    </ul>
+  </div>
+    <section class="main-section" id="What_is_morse_code">
+      <header id="first">What is morse code</header>
+      <article>
+      <p class="textp">Morse code is a method used in telecommunication to encode text characters as standardized sequences of two different signal durations, called dots and dashes or dits and dahs. Morse code is named for Samuel Morse, an inventor of the telegraph.</p>
+      <div class="morse">
+        <code>...---...</code>
+        <p>SOS in morse code</p>
+      </div>
+      <div class="morse">
+        <code>SK ...-.-</code>
+        <p>End of contact/End of work in morse code</p>
+      </div>
+      <div class="morse">
+        <code>..--..</code>
+        <p>Question mark in morse code</p>
+      </div>
+      </article>
+    </section>
+    <section class="main-section" id="History">
+      <header>History</header>
+      <article>
+      <p class="textp">Back in the early 1800s, engineers and scientists were just starting to pioneer electrical communication methods. In 1836, Samuel Morse, Joseph Henry, and Alfred Vail invented the electrical telegraph system. It was the first system that allowed communication over great distances. However, there was a problem, it could only communicate pulses of electricity to another machine.</p>
+      <p class="textp">This meant that you wouldn’t be able to communicate using voice or text, so a new way of getting messages across was needed. </p>
+      <p class="textp">A code was developed by none other than Samuel Morse to translate electrical pulses back into the original message, though Morse's code wasn't very complex at first.Originally, Morse’s code only incorporated numbers. This was useful for communicating some information but proved to not be enough to establish a firm communication capability. Vail helped to expand the code to include letters and special characters. Morse Code was thus born.</p>
+      <p class="textp">Originally, Morse’s code only incorporated numbers. This was useful for communicating some information but proved to not be enough to establish a firm communication capability. Vail helped to expand the code to include letters and special characters. Morse Code was thus born.</p>
+      <p class="textp">The code assigned a sequence of short and long electrical pulses to numbers and letters. Later these pulses would be thought of as dots and dashes.</p>
+      <div class="morse" id="morselarge">
+        <code class="morselarget">.-- .... .- -     .... .- - ....     --. --- -..     .-- .-. --- ..- --. .... - ··--··</code>
+        <p class="morselarget">"What hath God wrought?" was the first phrase sent through a telegraph in May 24, 1844 by Samuel F.B. Morse</p>
+      </div>
+      </article>
+    </section>
+    <section class="main-section" id="The_alphabet">
+      <header>The alphabet</header>
+      <article>
+      <p class="textp">The International Morse Code encodes the 26 English letters A through Z, some non-English letters, the Arabic numerals and a small set of punctuation and procedural signals (prosigns). There is no distinction between upper and lower case letters.[1] Each Morse code symbol is formed by a sequence of dots and dashes. The dot duration is the basic unit of time measurement in Morse code transmission. The duration of a dash is three times the duration of a dot. Each dot or dash within a character is followed by period of signal absence, called a space, equal to the dot duration. The letters of a word are separated by a space of duration equal to three dots, and the words are separated by a space equal to seven dots.[1] To increase the efficiency of encoding, Morse code was designed so that the length of each symbol is approximately inverse to the frequency of occurrence in text of the English language character that it represents. Thus the most common letter in English, the letter "E", has the shortest code: a single dot. Because the Morse code elements are specified by proportion rather than specific time durations, the code is usually transmitted at the highest rate that the receiver is capable of decoding. The Morse code transmission rate (speed) is specified in groups per minute, commonly referred to as words per minute.</p>
+      <figure id="alpha">
+        <img id="alphabet" src="https://upload.wikimedia.org/wikipedia/en/thumb/5/5a/Morse_comparison.svg/525px-Morse_comparison.svg.png">
+        <figcaption>The alphabet in morse code</figcaption>
+      </figure>
+      </article>
+    </section>
+    <section class="main-section" id="Representation,_timing,_and_speeds">
+      <header>Representation, timing, and speeds</header>
+      <article>
+      <p class="textp">International Morse code is composed of five elements:</p>
+      <ul class="contentli">
+        <li>Short mark, dot or "dit" (▄▄▄▄): "dot duration" is one time unit long</li>
+        <li>Longer mark, dash or "dah" (▄▄▄▄▄▄): three time units long</li>
+        <li>Inter-element gap between the dots and dashes within a character: one dot duration or one unit long</li>
+        <li>Short gap (between letters): three time units long</li>
+        <li>Medium gap (between words): seven time units long</li>
+      </ul>
+      <p id="trasmission">Transmission</p>
+      <p class="textp">Morse code can be transmitted in a number of ways: originally as electrical pulses along a telegraph wire, but also as an audio tone, a radio signal with short and long tones, or as a mechanical, audible, or visual signal (e.g. a flashing light) using devices like an Aldis lamp or a heliograph, a common flashlight, or even a car horn. Some mine rescues have used pulling on a rope - a short pull for a dot and a long pull for a dash.</p>
+      <p class="textp">Morse code is transmitted using just two states (on and off). Historians have called it the first digital code. Morse code may be represented as a binary code, and that is what telegraph operators do when transmitting messages. Working from the above ITU definition and further defining a bit as a dot time, a Morse code sequence may be made from a combination of the following five bit-strings:</p>
+      <ul class="contentli">
+        <li>Short mark, dot or "dit" (▄▄▄▄): 1</li>
+        <li>Longer mark, dash or "dah" (▄▄▄▄▄▄): 111</li>
+        <li>Intra-character gap (between the dots and dashes within a character): 0</li>
+        <li>Short gap (between letters): 000</li>
+        <li>Medium gap (between words): 0000000</li>
+      </ul>
+      <p class="textp">Note that the marks and gaps alternate: dots and dashes are always separated by one of the gaps, and that the gaps are always separated by a dot or a dash.</p>
+      <div class="morse">
+        <code>−− −−− ·−· ··· ·       −·−· −−− −··</code>
+        <p>"MORSE CODE" in morse</p>
+      </div>
+    </section>
+    <section class="main-section" id="Morse_Translators">
+      <header>Morse translators</header>
+      <p class="textp">Despite the fact that you can do morse code with something else than just dots and dashes, if you want to lear and improve your morse code skills you can use one of these free online translator morse code tool.</p>
+      <ul class="contentli" id="finall1">
+        <li class="finalli"><a href="https://morsify.net/" target="_blank">Morsify</a></li>
+        <li class="finalli"><a target="_blank" href="https://morsecode.world/international/translator.html">MorseCode.world</a></li>
+      </ul>
+      </article>
+    </section>
+    <footer>
+      <p>The info is from <a class="footera" target="_blank" href="https://en.wikipedia.org/wiki/Morse_code">Wikipedia</a> and <a class="footera" target="_blank" href="https://interestingengineering.com/origins-of-the-morse-code-and-how-it-works">Insteresting Engineering</a></p>
+    </footer>
+  </main>
+<!-- partial -->
+  
+</body>
+</html>
