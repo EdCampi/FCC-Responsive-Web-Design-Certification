@@ -2,7 +2,7 @@
 Proyectos pertenecientes al curso Responsive Web Design de FreeCodeCamp de duración aproximada de 300 horas, donde se trabajó con HTML y CSS.\
 \
 Enlaces a los proyectos alojados en CodePen.io:
-* [Tribute Page](https://codepen.io/CampiEd/full/GRpOjqq)
+* <a href="https://codepen.io/CampiEd/full/GRpOjqq" target="_blank">Tribute Page</a>
 * [Survey Form](https://codepen.io/CampiEd/full/MWaOPRa)
 * [Product Landing Page](https://codepen.io/CampiEd/full/pojapPP)
 * [Technnical Documentation Page](https://codepen.io/CampiEd/full/Baoreqd)
