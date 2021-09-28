@@ -1,0 +1,101 @@
+figcaption {
+  text-align: center;
+  font-family: 'Cormorant Garamond', serif;
+  color: black;
+  margin-top: 5px;
+}
+
+#img-div {
+  width: 100%;
+  text-align: center;
+}
+
+#img-div2 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#image {
+  width: 100%;
+  max-width: 750px;
+}
+
+/* don't touch anything above this line */
+
+header {
+  font-family: "Playfair Display", serif;
+  height: 200px;
+  width: 100%;
+}
+
+#title {
+  background-color: white;
+  text-align: center;
+  font-size: 50px;
+  width: fit-content;
+  position: relative;
+  top: 70px;
+  margin: auto;
+}
+
+/* now, don't touch enything above*/
+
+#tribute-info {
+  max-width: 700px;
+  width: 90%;
+  margin: auto;
+}
+
+#quote {
+  font-family: 'playfair display SC', serif;
+  font-size: 40px;
+}
+
+.tribute {
+  font-family: 'playfair display', serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+/* now, from here */
+
+footer {
+  height: 40px;
+  text-align: center;
+  font-family: 'cinzel', arial;
+  background-color: rgb(26, 25, 25);
+}
+
+footer p, footer a {
+  color: white;
+  text-decoration: none;
+  padding-top: 10px;
+  margin-top: 50px;
+}
+
+footer a {
+  color: orange !important;
+}
+
+/* now, here. Responsible incoming */
+
+@media (max-width: 515px) {
+  footer {
+    height: 50px;
+    font-size: 13px;
+  }
+  .tribute {
+    font-size: 15px;
+  }
+  #quote {
+    font-size: 25px;
+  }
+  figcaption {
+    font-size: 10px;
+  }
+  #title {
+    font-size: 35px;
+  }
+}
