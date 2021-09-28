@@ -7,6 +7,5 @@ Enlaces a los proyectos alojados en CodePen.io:
 * [Product Landing Page](https://codepen.io/CampiEd/full/pojapPP)
 * [Technnical Documentation Page](https://codepen.io/CampiEd/full/Baoreqd)
 * [Personal Portfolio](https://codepen.io/CampiEd/full/zYvjQdL)
-\
-\
+
 [Certficado de curso completo](https://www.freecodecamp.org/certification/campi/responsive-web-design)
